@@ -1,4 +1,4 @@
-package tacos.repository;
+package tacos.repository.jdbc_template;
 
 import tacos.model.TacoOrder;
 

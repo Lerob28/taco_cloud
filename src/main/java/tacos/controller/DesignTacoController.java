@@ -1,8 +1,6 @@
 package tacos.controller;
 
 import jakarta.validation.Valid;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +14,7 @@ import tacos.model.Ingredient.INGREDIENT_TYPE;
 import tacos.model.Taco;
 import tacos.model.TacoOrder;
 
-import tacos.repository.IngredientRepository;
+import tacos.repository.jdbc_template.IngredientRepository;
 
 
 import java.util.stream.Collectors;

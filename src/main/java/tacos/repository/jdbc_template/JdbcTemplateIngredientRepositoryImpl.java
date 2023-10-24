@@ -1,10 +1,9 @@
-package tacos.repository;
+package tacos.repository.jdbc_template;
 
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import tacos.model.Ingredient;
+import tacos.repository.jdbc_template.IngredientRepository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

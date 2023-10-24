@@ -4,11 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 import tacos.model.Ingredient;
-import tacos.model.Ingredient.INGREDIENT_TYPE;
-import tacos.repository.IngredientRepository;
-
-import java.util.HashMap;
-import java.util.Map;
+import tacos.repository.jdbc_template.IngredientRepository;
 
 
 @Component

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
 
 import tacos.model.TacoOrder;
-import tacos.repository.OrderRepository;
+import tacos.repository.jdbc_template.OrderRepository;
 
 @Slf4j
 @Controller

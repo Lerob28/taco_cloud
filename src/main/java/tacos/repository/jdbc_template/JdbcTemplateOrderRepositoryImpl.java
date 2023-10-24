@@ -1,4 +1,4 @@
-package tacos.repository;
+package tacos.repository.jdbc_template;
 
 import org.springframework.asm.Type;
 import org.springframework.jdbc.core.JdbcOperations;
