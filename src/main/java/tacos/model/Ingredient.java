@@ -9,7 +9,7 @@ public class Ingredient {
 
     private final String id;
     private final String name;
-    private final String type;
+    private final INGREDIENT_TYPE type;
 
     public enum INGREDIENT_TYPE {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
